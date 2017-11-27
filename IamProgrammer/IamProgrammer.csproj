@@ -193,6 +193,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ReportController.cs" />
     <Compile Include="Controllers\RolesAdminController.cs" />
     <Compile Include="Controllers\SkillController.cs" />
     <Compile Include="Controllers\supporterController.cs" />
@@ -209,6 +210,38 @@
     <Compile Include="Migrations\201711270931301_supporterRelationShip1.Designer.cs">
       <DependentUpon>201711270931301_supporterRelationShip1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711272148100_addReport.cs" />
+    <Compile Include="Migrations\201711272148100_addReport.Designer.cs">
+      <DependentUpon>201711272148100_addReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711272224574_newEdition.cs" />
+    <Compile Include="Migrations\201711272224574_newEdition.Designer.cs">
+      <DependentUpon>201711272224574_newEdition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711272232300_addReadyForHire.cs" />
+    <Compile Include="Migrations\201711272232300_addReadyForHire.Designer.cs">
+      <DependentUpon>201711272232300_addReadyForHire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711272234143_changeReportModel.cs" />
+    <Compile Include="Migrations\201711272234143_changeReportModel.Designer.cs">
+      <DependentUpon>201711272234143_changeReportModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711272237578_changeReportModel1.cs" />
+    <Compile Include="Migrations\201711272237578_changeReportModel1.Designer.cs">
+      <DependentUpon>201711272237578_changeReportModel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711272252429_newchanges.cs" />
+    <Compile Include="Migrations\201711272252429_newchanges.Designer.cs">
+      <DependentUpon>201711272252429_newchanges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711272336090_ReportModelChangeAgain.cs" />
+    <Compile Include="Migrations\201711272336090_ReportModelChangeAgain.Designer.cs">
+      <DependentUpon>201711272336090_ReportModelChangeAgain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711272345052_reportChanges.cs" />
+    <Compile Include="Migrations\201711272345052_reportChanges.Designer.cs">
+      <DependentUpon>201711272345052_reportChanges.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\AdminViewModel.cs" />
@@ -216,11 +249,13 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\ProfileImageUrl.cs" />
     <Compile Include="Models\ProfileImageModel.cs" />
+    <Compile Include="Models\ReportModel.cs" />
     <Compile Include="Models\SkillModel.cs" />
     <Compile Include="Models\supporterModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\GravatarService.cs" />
     <Compile Include="Services\ProfileImageService.cs" />
+    <Compile Include="Services\ReportService.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -301,6 +336,7 @@
     <Content Include="Views\supporter\Details.cshtml" />
     <Content Include="Views\supporter\Edit.cshtml" />
     <Content Include="Views\supporter\Index.cshtml" />
+    <Content Include="Views\Report\ShowReport.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -327,6 +363,30 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711270931301_supporterRelationShip1.resx">
       <DependentUpon>201711270931301_supporterRelationShip1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711272148100_addReport.resx">
+      <DependentUpon>201711272148100_addReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711272224574_newEdition.resx">
+      <DependentUpon>201711272224574_newEdition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711272232300_addReadyForHire.resx">
+      <DependentUpon>201711272232300_addReadyForHire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711272234143_changeReportModel.resx">
+      <DependentUpon>201711272234143_changeReportModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711272237578_changeReportModel1.resx">
+      <DependentUpon>201711272237578_changeReportModel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711272252429_newchanges.resx">
+      <DependentUpon>201711272252429_newchanges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711272336090_ReportModelChangeAgain.resx">
+      <DependentUpon>201711272336090_ReportModelChangeAgain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711272345052_reportChanges.resx">
+      <DependentUpon>201711272345052_reportChanges.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

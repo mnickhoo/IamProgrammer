@@ -16,10 +16,10 @@ namespace IdentitySample.Controllers
         ApplicationDbContext db = new ApplicationDbContext();
         public async Task<ActionResult> Index()
         {
-            using (MD5 md5Hash = MD5.Create())
-            {
-                var hashed = Helper.GetMd5Hash(md5Hash, "mahdinickhoo@gmail.com");
-            }
+            //using (MD5 md5Hash = MD5.Create())
+            //{
+            //    var hashed = Helper.GetMd5Hash(md5Hash, "mahdinickhoo@gmail.com");
+            //}
             //System.Diagnostics.Debugger.NotifyOfCrossThreadDependency();
 
             //ProfileImageService profile = new ProfileImageService();

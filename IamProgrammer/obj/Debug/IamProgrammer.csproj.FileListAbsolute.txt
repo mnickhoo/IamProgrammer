@@ -98,3 +98,11 @@ c:\users\nikita\documents\visual studio 2017\Projects\IamProgrammer\IamProgramme
 c:\users\nikita\documents\visual studio 2017\Projects\IamProgrammer\IamProgrammer\obj\Debug\IamProgrammer.Migrations.supporterRelationShip.resources
 c:\users\nikita\documents\visual studio 2017\Projects\IamProgrammer\IamProgrammer\obj\Debug\IamProgrammer.csproj.GenerateResource.Cache
 c:\users\nikita\documents\visual studio 2017\Projects\IamProgrammer\IamProgrammer\obj\Debug\IamProgrammer.Migrations.supporterRelationShip1.resources
+c:\users\nikita\documents\visual studio 2017\Projects\IamProgrammer\IamProgrammer\obj\Debug\IamProgrammer.Migrations.addReport.resources
+c:\users\nikita\documents\visual studio 2017\Projects\IamProgrammer\IamProgrammer\obj\Debug\IamProgrammer.Migrations.newEdition.resources
+c:\users\nikita\documents\visual studio 2017\Projects\IamProgrammer\IamProgrammer\obj\Debug\IamProgrammer.Migrations.addReadyForHire.resources
+c:\users\nikita\documents\visual studio 2017\Projects\IamProgrammer\IamProgrammer\obj\Debug\IamProgrammer.Migrations.changeReportModel.resources
+c:\users\nikita\documents\visual studio 2017\Projects\IamProgrammer\IamProgrammer\obj\Debug\IamProgrammer.Migrations.changeReportModel1.resources
+c:\users\nikita\documents\visual studio 2017\Projects\IamProgrammer\IamProgrammer\obj\Debug\IamProgrammer.Migrations.newchanges.resources
+c:\users\nikita\documents\visual studio 2017\Projects\IamProgrammer\IamProgrammer\obj\Debug\IamProgrammer.Migrations.ReportModelChangeAgain.resources
+c:\users\nikita\documents\visual studio 2017\Projects\IamProgrammer\IamProgrammer\obj\Debug\IamProgrammer.Migrations.reportChanges.resources

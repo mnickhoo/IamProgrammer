@@ -48,7 +48,8 @@ namespace IamProgrammer.Models
 
         [Display(Name = "مشغول به کار")]
         public bool IsWorking { get; set; }
-
+        public bool ReadyForHire { get; set; }
+        public DateTime Date { get { return DateTime.Now; } }
     }
 
 }

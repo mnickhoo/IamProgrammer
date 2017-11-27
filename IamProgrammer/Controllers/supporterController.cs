@@ -48,7 +48,7 @@ namespace IamProgrammer.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Name,Family,Email,Phone,skillId,SubscribeEmail")] supporterModel supporterModel)
+        public ActionResult Create([Bind(Include = "Name,Family,Email,Phone,skillId,SubscribeEmail,Date")] supporterModel supporterModel)
         {
             if (ModelState.IsValid)
             {

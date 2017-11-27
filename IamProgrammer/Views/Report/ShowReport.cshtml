@@ -1,0 +1,59 @@
+﻿@model IamProgrammer.Models.ReportModel
+
+@{
+    ViewBag.Title = "ShowReport";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ShowReport</h2>
+
+<div>
+    <h4>ReportModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CountSupporter)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CountSupporter)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Genders)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Genders)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ReadyForHire)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReadyForHire)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsWorking)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsWorking)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

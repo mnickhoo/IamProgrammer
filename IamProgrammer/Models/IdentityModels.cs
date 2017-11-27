@@ -27,6 +27,7 @@ namespace IdentitySample.Models
         }
         public DbSet<supporterModel> Supporters { get; set; }
         public DbSet<SkillModel> Skills { get; set; }
+        public DbSet<ReportModel> Reports { get; set; }
 
         static ApplicationDbContext()
         {
